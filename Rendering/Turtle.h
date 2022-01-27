@@ -72,8 +72,8 @@ public:
 
 	void move(double step){
 		// fill this in
-		_turtle.p.x += _scale * cos(_turtle.dir);
-		_turtle.p.y += _scale * sin(_turtle.dir);
+		_turtle.p.x += step * _scale * cos(_turtle.dir);
+		_turtle.p.y += step * _scale * sin(_turtle.dir);
 	}
 
 	void turn(double ang){

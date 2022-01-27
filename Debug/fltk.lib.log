@@ -1,0 +1,21 @@
+﻿Build started 1/14/2019 3:52:02 PM.
+     1>Project "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Debug\fltk.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         fltk.lib.vcxproj -> C:\Users\dwson\Downloads\Lab1\Debug\fltk.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\fltk.unsuccessfulbuild".
+         Touching "Debug\fltk.lastbuildstate".
+     1>Done Building Project "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

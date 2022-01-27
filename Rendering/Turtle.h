@@ -53,30 +53,51 @@ public:
 
 	void reset() { 
 		// fill this in
+		_turtle = TurtleState();
+		_color = Color();
+		_width = 1;
+		_scale = 1;
 	}
 
 	void forward(double step) { 
 		// fill this in
+		Line l;
+		l.c = _color;
+		l.width = _width;
+		l.a = _turtle.p;
+		move(step);
+		l.b = _turtle.p;
+		_trails.push_back(l);
 	}
 
 	void move(double step){
 		// fill this in
+		_turtle.p.x += _scale * cos(_turtle.dir);
+		_turtle.p.y += _scale * sin(_turtle.dir);
 	}
 
 	void turn(double ang){
 		// fill this in
+		_turtle.dir += ang;
 	}
 
 	void resize(double s){
 		// fill this in
+		_scale *= s;
 	}
 
 	void color(double r, double g, double b){
 		// fill this in
+		Color newcolor;
+		newcolor.r = r;
+		newcolor.g = g;
+		newcolor.b = b;
+		_color = newcolor;
 	}
 
 	void lineSize(double size){
 		// fill this in
+		_width = size;
 	}
 
 	Pt pos() { return _turtle.p; }

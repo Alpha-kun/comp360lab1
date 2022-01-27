@@ -1,45 +1,8 @@
-﻿Build started 1/11/2019 10:13:51 AM.
-     1>Project "C:\Users\dwson\Downloads\Lab1\Lab.vcxproj" on node 2 (build target(s)).
-       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
-     1>Project "C:\Users\dwson\Downloads\Lab1\Lab.vcxproj" (1) is building "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (2) on node 2 (GetTargetPath target(s)).
-       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
-     2>Done Building Project "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (GetTargetPath target(s)).
-     1>Project "C:\Users\dwson\Downloads\Lab1\Lab.vcxproj" (1) is building "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
-       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
-     2>Done Building Project "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (GetNativeManifest target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\Lab.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D _DEBUG /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D VC_EXTRA_LEAN /D WIN32_EXTRA_LEAN /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc90.pdb" /Gd /TC /analyze- /errorReport:prompt Common\bmpfile.c
-         bmpfile.c
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D _DEBUG /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D VC_EXTRA_LEAN /D WIN32_EXTRA_LEAN /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt GUI\CmdInputGroup.cpp Common\Common.cpp GUI\FrameWindow.cpp main.cpp Rendering\ObjectViewer.cpp Text\Parser.cpp
-         CmdInputGroup.cpp
-         Common.cpp
-         FrameWindow.cpp
-         main.cpp
-         ObjectViewer.cpp
-         Parser.cpp
-         Generating Code...
-     1>Project "C:\Users\dwson\Downloads\Lab1\Lab.vcxproj" (1) is building "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
-       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
-     2>Done Building Project "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (GetResolvedLinkLibs target(s)).
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\Lab.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:Debug\ glu32.lib opengl32.lib comctl32.lib wsock32.lib fltk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd /MANIFEST /ManifestFile:"Debug\Lab.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\dwson\Downloads\Lab1\Debug\Lab.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\Lab.lib" /MACHINE:X86 Debug\bmpfile.obj
-         Debug\CmdInputGroup.obj
-         Debug\Common.obj
-         Debug\FrameWindow.obj
-         Debug\main.obj
-         Debug\ObjectViewer.obj
-         Debug\Parser.obj
-         C:\Users\dwson\Downloads\Lab1\Debug\fltk.lib
-         Lab.vcxproj -> C:\Users\dwson\Downloads\Lab1\Debug\Lab.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug\Lab.exe;#1" /manifest Debug\Lab.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Deleting file "Debug\Lab.unsuccessfulbuild".
-         Touching "Debug\Lab.lastbuildstate".
-     1>Done Building Project "C:\Users\dwson\Downloads\Lab1\Lab.vcxproj" (build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:04.00
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (fltk.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  CmdInputGroup.cpp
+  ObjectViewer.cpp
+  Parser.cpp
+  main.cpp
+  Generating Code...
+  Lab.vcxproj -> D:\Rice\spring2022\COMP360\lab1\Lab1\Debug\Lab.exe

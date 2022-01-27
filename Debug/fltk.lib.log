@@ -1,21 +1,175 @@
-﻿Build started 1/14/2019 3:52:02 PM.
-     1>Project "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" on node 2 (build target(s)).
-       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
-     1>InitializeBuildStatus:
-         Creating "Debug\fltk.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         All outputs are up-to-date.
-         All outputs are up-to-date.
-       Lib:
-         All outputs are up-to-date.
-         fltk.lib.vcxproj -> C:\Users\dwson\Downloads\Lab1\Debug\fltk.lib
-       BscMake:
-         All outputs are up-to-date.
-       FinalizeBuildStatus:
-         Deleting file "Debug\fltk.unsuccessfulbuild".
-         Touching "Debug\fltk.lastbuildstate".
-     1>Done Building Project "C:\Users\dwson\Downloads\Lab1\fltk.lib.vcxproj" (build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.60
+﻿  cmap.cxx
+  filename_absolute.cxx
+  filename_expand.cxx
+  filename_ext.cxx
+  filename_isdir.cxx
+  filename_list.cxx
+  filename_match.cxx
+  filename_setext.cxx
+  Fl.cxx
+  Fl_abort.cxx
+  Fl_add_idle.cxx
+  Fl_Adjuster.cxx
+  fl_arc.cxx
+  fl_arci.cxx
+  Fl_arg.cxx
+  fl_ask.cxx
+  Fl_Bitmap.cxx
+  Fl_BMP_Image.cxx
+  Fl_Box.cxx
+  fl_boxtype.cxx
+  Generating Code...
+  Compiling...
+  Fl_Browser.cxx
+  Fl_Browser_.cxx
+  Fl_Browser_load.cxx
+  Fl_Button.cxx
+  Fl_Chart.cxx
+  Fl_Check_Browser.cxx
+  Fl_Check_Button.cxx
+  Fl_Choice.cxx
+  Fl_Clock.cxx
+  fl_color.cxx
+  Fl_Color_Chooser.cxx
+  Fl_compose.cxx
+  Fl_Counter.cxx
+  fl_cursor.cxx
+  fl_curve.cxx
+  Fl_Dial.cxx
+  fl_diamond_box.cxx
+  Fl_display.cxx
+  fl_dnd.cxx
+  Fl_Double_Window.cxx
+  Generating Code...
+  Compiling...
+  fl_draw.cxx
+  fl_draw_image.cxx
+  fl_draw_pixmap.cxx
+  fl_encoding_latin1.cxx
+  fl_engraved_label.cxx
+  Fl_File_Browser.cxx
+  Fl_File_Chooser.cxx
+  Fl_File_Chooser2.cxx
+  fl_file_dir.cxx
+  Fl_File_Icon.cxx
+  Fl_File_Icon2.cxx
+  Fl_File_Input.cxx
+  fl_font.cxx
+  Fl_get_key.cxx
+  Fl_get_system_colors.cxx
+  Fl_GIF_Image.cxx
+  Fl_Gl_Choice.cxx
+  Fl_Gl_Overlay.cxx
+  Fl_Gl_Window.cxx
+  Fl_grab.cxx
+  Generating Code...
+  Compiling...
+  Fl_Group.cxx
+  fl_gtk.cxx
+  Fl_Help_Dialog.cxx
+  Fl_Help_View.cxx
+  Fl_Image.cxx
+  fl_images_core.cxx
+  Fl_Input.cxx
+  Fl_Input_.cxx
+  fl_labeltype.cxx
+  Fl_Light_Button.cxx
+  fl_line_style.cxx
+  Fl_lock.cxx
+  Fl_Menu.cxx
+  Fl_Menu_.cxx
+  Fl_Menu_add.cxx
+  Fl_Menu_Bar.cxx
+  Fl_Menu_Button.cxx
+  Fl_Menu_global.cxx
+  Fl_Menu_Window.cxx
+  Fl_Multi_Label.cxx
+  Generating Code...
+  Compiling...
+  fl_open_uri.cxx
+  fl_oval_box.cxx
+  fl_overlay.cxx
+  fl_overlay_visual.cxx
+  Fl_Overlay_Window.cxx
+  Fl_own_colormap.cxx
+  Fl_Pack.cxx
+  Fl_Pixmap.cxx
+  fl_plastic.cxx
+  Fl_PNM_Image.cxx
+  Fl_Positioner.cxx
+  Fl_Preferences.cxx
+  Fl_Progress.cxx
+  fl_read_image.cxx
+  fl_rect.cxx
+  Fl_Repeat_Button.cxx
+  Fl_Return_Button.cxx
+  Fl_Roller.cxx
+  fl_round_box.cxx
+  Fl_Round_Button.cxx
+  Generating Code...
+  Compiling...
+  fl_rounded_box.cxx
+  Fl_Scroll.cxx
+  fl_scroll_area.cxx
+  Fl_Scrollbar.cxx
+  fl_set_font.cxx
+  fl_set_fonts.cxx
+  fl_shadow_box.cxx
+  Fl_Shared_Image.cxx
+  fl_shortcut.cxx
+  fl_show_colormap.cxx
+  Fl_Single_Window.cxx
+  Fl_Slider.cxx
+  fl_symbols.cxx
+  Fl_Sys_Menu_Bar.cxx
+  Fl_Tabs.cxx
+  Fl_Text_Buffer.cxx
+  Fl_Text_Display.cxx
+  Fl_Text_Editor.cxx
+  Fl_Tile.cxx
+  Fl_Tiled_Image.cxx
+  Generating Code...
+  Compiling...
+  Fl_Tooltip.cxx
+  Fl_Valuator.cxx
+  Fl_Value_Input.cxx
+  Fl_Value_Output.cxx
+  Fl_Value_Slider.cxx
+  fl_vertex.cxx
+  Fl_visual.cxx
+  Fl_Widget.cxx
+  Fl_Window.cxx
+  Fl_Window_fullscreen.cxx
+  Fl_Window_hotspot.cxx
+  Fl_Window_iconize.cxx
+  Fl_Wizard.cxx
+  Fl_x.cxx
+  Fl_XBM_Image.cxx
+  Fl_XPM_Image.cxx
+  forms_bitmap.cxx
+  forms_compatability.cxx
+  forms_free.cxx
+  forms_fselect.cxx
+  Generating Code...
+  Compiling...
+  forms_pixmap.cxx
+  forms_timer.cxx
+  freeglut_geometry.cxx
+  freeglut_stroke_mono_roman.cxx
+  freeglut_stroke_roman.cxx
+  freeglut_teapot.cxx
+  gl_draw.cxx
+  gl_start.cxx
+  glut_compatability.cxx
+  glut_font.cxx
+  screen_xywh.cxx
+  Generating Code...
+  dump_compose.c
+  fl_call_main.c
+  flstring.c
+  numericsort.c
+  scandir.c
+  vsnprintf.c
+  Generating Code...
+cmap.obj : warning LNK4006: _main already defined in dump_compose.obj; second definition ignored
+  fltk.lib.vcxproj -> D:\Rice\spring2022\COMP360\lab1\Lab1\Debug\fltk.lib

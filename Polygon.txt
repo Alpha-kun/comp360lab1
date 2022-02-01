@@ -1,0 +1,3 @@
+Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
+#
+

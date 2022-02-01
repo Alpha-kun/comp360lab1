@@ -1,0 +1,6 @@
+Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
+#
+Circle[radius]=Polygon[2*radius*Sin[Pi/500],500]
+#
+Circle[50]
+#

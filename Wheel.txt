@@ -1,0 +1,2 @@
+Wheel[length,sides]=For[ii,1,sides,Block[Forward[length/(2*Sin[Pi/sides])],Turn[Pi/2-Pi/sides],Forward[length],Turn[Pi/2-Pi/sides],Move[length/(2*Sin[Pi/sides])],Turn[Pi]]]
+#

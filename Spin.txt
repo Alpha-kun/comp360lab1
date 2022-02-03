@@ -1,0 +1,6 @@
+Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
+#
+Spin[angle, repeats, procedure] = For[i, 1, repeats, Block[procedure, Turn[angle]]]
+#
+Spin[Pi / 2, 4, Hold[Polygon[80, 6]]]
+#

@@ -1,0 +1,6 @@
+Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
+#
+Scale[scale, repeats, procedure] = For[i, 1, repeats, Block[procedure, Resize[scale]]]
+#
+Scale[2, 5, Hold[Polygon[10, 5]]]
+#

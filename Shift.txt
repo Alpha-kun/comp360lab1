@@ -1,0 +1,6 @@
+Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
+#
+Shift[distance, repeats, procedure] = For[i, 1, repeats, Block[procedure, Move[distance]]]
+#
+Shift[20, 5, Hold[Polygon[80, 5]]]
+#

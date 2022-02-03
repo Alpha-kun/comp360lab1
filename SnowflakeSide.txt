@@ -1,0 +1,18 @@
+SnowflakeSide[level,sides,length]=
+Eq[level,0,
+	Forward[length],
+	Block[
+		Resize[1.0/3.0],
+		SnowflakeSide[level-1,sides,length],
+		Turn[Pi-2*Pi/sides],
+		For[ii,1,sides-1,
+			Block[
+				SnowflakeSide[level-1,sides,length],
+				Turn[-2*Pi/sides]
+			]
+		],
+		Turn[Pi],
+		SnowflakeSide[level-1,sides,length],
+		Resize[3.0]
+	]
+]

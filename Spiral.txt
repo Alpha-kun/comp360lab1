@@ -1,0 +1,8 @@
+Spiral[length,angle,scale]=
+For[ii,1,100,
+	Block[
+		Forward[length],
+		Turn[Pi-angle],
+		Resize[scale]
+	]
+]

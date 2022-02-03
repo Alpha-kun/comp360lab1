@@ -1,0 +1,20 @@
+Rosette[length,sides]=
+For[ii,1,sides,
+	Block[
+		For[i,1,sides-1,
+			Block[
+				Forward[length*Sin[i*Pi/sides]/Sin[Pi/sides]],
+				Turn[Pi],
+				Forward[length*Sin[i*Pi/sides]/Sin[Pi/sides]],
+				Turn[Pi],
+				Turn[Pi/sides]
+			]
+		],
+		Turn[-Pi/sides],
+		Move[length],
+		Turn[Pi]
+	]
+]
+#
+Rosette[50,7]
+#

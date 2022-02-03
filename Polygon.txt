@@ -1,3 +1,13 @@
 Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
 #
+Polygon[100,3]
+#
+Polygon[100,4]
+#
+Polygon[100,5]
+#
+Polygon[100,6]
+#
+Polygon[100,7]
+#
 

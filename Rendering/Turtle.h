@@ -57,6 +57,7 @@ public:
 		_color = Color();
 		_width = 1;
 		_scale = 1;
+		_trails.clear();
 	}
 
 	void forward(double step) { 

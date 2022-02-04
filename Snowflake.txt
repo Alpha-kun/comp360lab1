@@ -17,5 +17,7 @@ Eq[level,0,
 	]
 ]
 #
-SnowflakeSide[5,4,200]
+Snowflake[level,sides,length]=For[i, 1, sides, Block[SnowflakeSide[level,sides,length], Turn[-2*Pi/sides]]]
+#
+Snowflake[5,3,200]
 #

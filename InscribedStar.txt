@@ -1,0 +1,33 @@
+Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
+#
+Circle[radius]=Polygon[2*radius*Sin[Pi/500],500]
+#
+Star[length,vertices]=
+Block[
+	For[ii,1,vertices,
+		Block[
+			Forward[length],
+			Turn[4*Pi/vertices]
+		]
+	],
+	Turn[-Pi/vertices],
+	Move[length*Sin[Pi/vertices]/Sin[2*Pi/vertices]],
+	Turn[3*Pi/vertices],
+	For[ii,1,vertices,
+		Block[
+			Forward[length],
+			Turn[4*Pi/vertices]
+		]
+	]
+]
+#
+InscribedStar[radius,vertices]=
+Block[
+	Turn[Pi/(2*vertices)-Pi/2],
+	Circle[radius],
+	Turn[-Pi/(2*vertices)+Pi/2],
+	Star[2*radius*Sin[2*Pi/vertices],vertices]
+]
+#
+InscribedStar[100,5]
+#

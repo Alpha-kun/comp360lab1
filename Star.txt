@@ -1,0 +1,21 @@
+Star[length,vertices]=
+Block[
+	For[ii,1,vertices,
+		Block[
+			Forward[length],
+			Turn[4*Pi/vertices]
+		]
+	],
+	Turn[-Pi/vertices],
+	Move[length*Sin[Pi/vertices]/Sin[2*Pi/vertices]],
+	Turn[3*Pi/vertices],
+	For[ii,1,vertices,
+		Block[
+			Forward[length],
+			Turn[4*Pi/vertices]
+		]
+	]
+]
+#
+Star[200,5]
+#

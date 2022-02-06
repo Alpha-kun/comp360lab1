@@ -1,0 +1,20 @@
+Polygon[length,sides]=For[ii,1,sides,Block[Forward[length],Turn[(2*Pi)/sides]]]
+#
+SquareGasket[level, size]=
+Eq[level,0,Polygon[size, 4],
+	For[i,1,4,
+		Block[
+			For[i,1,2,
+				Block[
+					SquareGasket[level-1,size/3.0],
+					Move[size/3.0]
+				]
+			],
+			Move[size/3.0],
+			Turn[Pi/2.0]
+		]
+	]
+]
+#
+SquareGasket[5, 200]
+#

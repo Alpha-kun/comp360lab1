@@ -1,0 +1,24 @@
+Tree[level, size, angle, scale]=
+Eq[level,0,
+	Block[
+		Forward[size],
+		Turn[Pi],
+		Move[size],
+		Turn[Pi]
+	],
+	Block[
+		Forward[size],
+		Turn[angle],
+		Tree[level-1,size*scale,angle,scale],
+		Turn[10*angle],
+		Tree[level-1,size*scale,angle,scale],
+		Turn[7*angle],
+		Move[size],
+		Turn[Pi]
+	]
+]
+#
+Turn[Pi/2.0]
+#
+Tree[7,65,Pi/6.0,3.0/4.0]
+#

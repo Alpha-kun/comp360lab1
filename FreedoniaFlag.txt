@@ -1,0 +1,74 @@
+Shift[distance, repeats, procedure] = For[i, 1, repeats, Block[procedure, Move[distance]]]
+#
+Star[length,vertices]=
+	For[ii,1,vertices,
+		Block[
+			Forward[length],
+			Turn[4*Pi/vertices]
+		]
+	]
+#
+Tree[level, size, angle, scale]=
+Eq[level,0,
+	Block[
+		Forward[size],
+		Turn[Pi],
+		Move[size],
+		Turn[Pi]
+	],
+	Block[
+		Forward[size],
+		Turn[angle],
+		Tree[level-1,size*scale,angle,scale],
+		Turn[2 * Pi - 2 * angle],
+		Tree[level-1,size*scale,angle,scale],
+		Turn[Pi + angle],
+		Move[size],
+		Turn[Pi]
+	]
+]
+#
+Turn[Pi/2.0]
+#
+Color[1,0,1]
+#
+Tree[8,60,7 * Pi/24.0,2.0/3.0]
+#
+Color[0,1,0]
+#
+Tree[8,58,7 * Pi/24.0,2.0/3.0]
+#
+Turn[Pi/2.0]
+#
+Color[1,1,1]
+#
+Forward[150]
+#
+Turn[3*Pi/2.0]
+#
+Forward[215]
+#
+Turn[3*Pi/2.0]
+#
+Forward[300]
+#
+Turn[3*Pi/2.0]
+#
+Forward[215]
+#
+Turn[3*Pi/2.0]
+#
+Forward[150]
+#
+Move[100]
+#
+Turn[3*Pi/2.0]
+#
+Move[175]
+#
+Turn[3*Pi/2.0]
+#
+Color[1,1,0]
+#
+Shift[45, 5, Hold[Star[20, 5]]]
+#

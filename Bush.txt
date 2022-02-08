@@ -12,9 +12,9 @@ Eq[level,0,
 		Bush[level-1,size/2.0,angle],
 		Turn[angle],
 		Bush[level-1,size/2.0,angle],
-		Turn[10*angle],
+		Turn[2 * Pi - 2 * angle],
 		Bush[level-1,size/2.0,angle],
-		Turn[7*angle],
+		Turn[Pi + angle],
 		Move[size/2.0],
 		Turn[Pi]
 	]

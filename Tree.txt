@@ -10,9 +10,9 @@ Eq[level,0,
 		Forward[size],
 		Turn[angle],
 		Tree[level-1,size*scale,angle,scale],
-		Turn[10*angle],
+		Turn[2 * Pi - 2 * angle],
 		Tree[level-1,size*scale,angle,scale],
-		Turn[7*angle],
+		Turn[Pi + angle],
 		Move[size],
 		Turn[Pi]
 	]
